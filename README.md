@@ -13,9 +13,11 @@ We provide:
 * **knowledge base**: open RDF fact store, explaining relations and provenance of workflows and data.
 * **data caching layer**: when necessary, some data will be cached directly on our storage.
 
-Provenance-based index
+## How do you take part?
 
-Fact-based index
+* Simply **use our online analysis frontend or API**, leveraging the collective effort of the federation with just few clicks, tracking provenance of our platform.
+* **Empower your requests with your own hardware**, computing selected (by you) and verified (by instrument expects whom you trust anyway) analysis workflows. The analysis will store the high-level products in shared provenance-based cache, accelerating similar workflows for the community. Community will see your contribution and will be grateful.
+* **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often.
 
 job token runner flow
 
@@ -26,12 +28,9 @@ issue flow
 ![Diagram](Diagram.png)
 
 
-bebefits of prov
+## Provenance?
 
-## Contributing ODA Workflows
+benefits of provenance include:
 
-offer your service
 
-register, with appropriate signature
-
-bebefits
+## Security implications of distributed analysis
