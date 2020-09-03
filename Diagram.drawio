@@ -1,41 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T08:13:18.499Z" agent="5.0 (X11)" etag="ajd3L5t9RfwWHfxeJNtk" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-03T09:56:37.604Z" agent="5.0 (X11)" etag="VxeuSP13wTOffA5GRJfP" version="13.6.6" type="github">
   <diagram id="ABPf4gMQrz8rWeOrcxoh" name="Page-1">
     <mxGraphModel dx="1418" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-2" value="ODA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="152.5" y="80" width="195" height="300" as="geometry" />
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="350" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="cQD9Gc0wUEaLlVU0dFFl-1" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-1" value="HPC Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="cQD9Gc0wUEaLlVU0dFFl-1" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Lucida Console&quot;&gt;&lt;b&gt;ODA Hub&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BC6SIgkMuatq0ajvi_0X-3" value="&lt;font color=&quot;#97D077&quot;&gt;Federation Scientist&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="630" y="30" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BC6SIgkMuatq0ajvi_0X-5" value="ODA Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="560" y="300" width="30" height="60" as="geometry" />
+          <mxGeometry x="790" y="269.2" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BC6SIgkMuatq0ajvi_0X-7" value="&lt;div&gt;Federation Expert&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B5739D;" parent="1" vertex="1">
-          <mxGeometry x="640" y="360" width="30" height="60" as="geometry" />
+          <mxGeometry x="630" y="320" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-8" value="k8s Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="192.5" y="250" width="115" height="40" as="geometry" />
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Am&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;azon&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.859;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BC6SIgkMuatq0ajvi_0X-9" target="BC6SIgkMuatq0ajvi_0X-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-2" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Google&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-9" value="reana Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="192.5" y="315" width="107.5" height="30" as="geometry" />
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-3" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;MicroSoft&lt;/b&gt;&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-Unb0SswC2mMqj618S41-3" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;ODA&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Knowledge &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Base&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="390" y="310" width="80" height="100" as="geometry" />
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-10-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-Unb0SswC2mMqj618S41-4" value="AWS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;fontColor=#B5739D;" vertex="1" parent="1">
-          <mxGeometry x="240" y="510" width="120" height="80" as="geometry" />
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-10-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-10-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-10-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-8" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cluster;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="102.8" height="49.2" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="159.99999999999997" width="80" height="87.80000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="-Unb0SswC2mMqj618S41-3" value="&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Knowledge &lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Base&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" parent="y4z-QIlFn8YJwBkRAVKp-12" vertex="1">
+          <mxGeometry y="7" width="80" height="80.8" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/picol-vector/32/rdf-128.png;sketch=0;" vertex="1" parent="y4z-QIlFn8YJwBkRAVKp-12">
+          <mxGeometry x="21" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-10" value="&lt;font color=&quot;#660066&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#660066&quot;&gt;&lt;b&gt;Data Store&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="y4z-QIlFn8YJwBkRAVKp-14">
+          <mxGeometry y="7.272727272727272" width="80" height="72.72727272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;sketch=0;" vertex="1" parent="y4z-QIlFn8YJwBkRAVKp-14">
+          <mxGeometry x="28" width="24" height="21.16363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/technology-1-1/512/technology-machine-electronic-device-10-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_8-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_20-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="412" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-18" value="&lt;div&gt;Federation Expert&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_18-128.png;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="442" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="y4z-QIlFn8YJwBkRAVKp-19" value="&lt;font color=&quot;#97D077&quot;&gt;Federation Scientist&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/stick-figures-in-motion/100/stickfigure_22-128.png;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="206" width="74" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
