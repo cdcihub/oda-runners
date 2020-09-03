@@ -1,35 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T07:02:33.449Z" agent="5.0 (X11)" etag="DqCo3N-oTaCsAIhrvVGy" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-03T08:13:18.499Z" agent="5.0 (X11)" etag="ajd3L5t9RfwWHfxeJNtk" version="13.6.6" type="github">
   <diagram id="ABPf4gMQrz8rWeOrcxoh" name="Page-1">
     <mxGraphModel dx="1418" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-2" value="ODA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-2" value="ODA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="152.5" y="80" width="195" height="300" as="geometry" />
         </mxCell>
         <mxCell id="cQD9Gc0wUEaLlVU0dFFl-1" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-1" value="HPC Workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-1" value="HPC Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-3" value="&lt;font color=&quot;#97D077&quot;&gt;Federation Scientist&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="630" y="30" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-5" value="ODA Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="560" y="300" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="460" width="30" height="60" as="geometry" />
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-7" value="&lt;div&gt;Federation Expert&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B5739D;" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-8" value="k8s Workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-8" value="k8s Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="192.5" y="250" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.859;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BC6SIgkMuatq0ajvi_0X-9" target="BC6SIgkMuatq0ajvi_0X-2">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.859;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BC6SIgkMuatq0ajvi_0X-9" target="BC6SIgkMuatq0ajvi_0X-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BC6SIgkMuatq0ajvi_0X-9" value="reana Workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BC6SIgkMuatq0ajvi_0X-9" value="reana Workers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="192.5" y="315" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Unb0SswC2mMqj618S41-3" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;ODA&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Knowledge &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot; color=&quot;#660066&quot;&gt;Base&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;sketch=0;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-Unb0SswC2mMqj618S41-4" value="AWS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
