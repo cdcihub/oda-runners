@@ -10,8 +10,9 @@ Hence:
 
 We provide:
 
-* **knowledge base**: open RDF fact store, explaining relations and provenance of workflows and data.
-* **data caching layer**: when necessary, some data will be cached directly on our storage.
+* **frontend**: beutiful and familiar [frontend](https://www.astro.unige.ch/cdci/astrooda_/).
+* **data caching**: some data will be cached directly on our storage, and hence re-used by all users.
+* **knowledge base**: "open" RDF fact store, explaining relations and provenance of workflows and data. Used to search for relation between workflows and data.
 
 ## How do you take part?
 
