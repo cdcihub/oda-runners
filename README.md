@@ -1,6 +1,6 @@
 # Federated ODA Workers
 
-## Why?
+## Why Federated Workers?
 
 Providing sufficient computing resources is difficult.
 
