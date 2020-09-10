@@ -28,6 +28,24 @@ issue flow
 
 ![Diagram](Diagram.png)
 
+## Workflow Model
+
+There is a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Airflow (the latter chosen by ESA).
+
+All of them refelct general scheme, treating workflows as functions:
+
+* each workflow is a computable function. 
+* a workflow has inputs (dependencies, requirements). The inputs are subject to a type system. 
+* workflows can be composed from other workflows, following function composition rules
+
+We also consider that
+
+* workflow requirements, such as workflow runner version or execution environment, can be understood as a special kind of inputs.
+
+In addition, we leverage workflows as first-order data type, allowing:
+
+* workflow can be an input to another workflow, allowing for example "mapping" or "factorizing" workflows.
+* workflow can be an output of another workflow, allowing dynamic workflow composition
 
 ## Provenance?
 
