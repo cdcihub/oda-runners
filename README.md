@@ -17,8 +17,11 @@ We provide:
 ## How do you take part?
 
 * Simply **use our online analysis frontend or API**, leveraging the collective effort of the federation with just few clicks, tracking provenance of our platform.
-* **Empower your requests with your own hardware**, computing selected (by you) and verified (by instrument expects whom you trust anyway) analysis workflows. The analysis will store the high-level products in shared provenance-based cache, accelerating similar workflows for the community. Community will see your contribution and will be grateful.
+* **Empower your requests with your own hardware**, computing selected (by you) and verified (by instrument expects whom you trust anyway) analysis workflows. The analysis will store the high-level products in shared provenance-based cache, accelerating similar workflows for the community. **Community will see your contribution, will be grateful, and requested to acknowledge it**.
 * **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often.
+* Perhaps even **join your computing resources to provide spare computing power to other users**, **community will be very grateful and requested to acknowlage your contribution**
+
+# Connecting a federated resource
 
 ### Anonymous (Job Token) runner
 
