@@ -20,7 +20,12 @@ We provide:
 * **Empower your requests with your own hardware**, computing selected (by you) and verified (by instrument expects whom you trust anyway) analysis workflows. The analysis will store the high-level products in shared provenance-based cache, accelerating similar workflows for the community. Community will see your contribution and will be grateful.
 * **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often.
 
-job token runner flow
+### Anonymous (Job Token) runner
+
+
+### User runners
+
+### Group runners
 
 security implications by case
 
