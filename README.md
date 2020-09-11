@@ -21,7 +21,7 @@ We provide:
 * **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often.
 * Perhaps even **join your computing resources to provide spare computing power to other users**, **community will be very grateful and requested to acknowlage your contribution**
 
-# Connecting a federated resource
+## Ways of connecting a federated resource
 
 ### Anonymous (Job Token) runner
 
