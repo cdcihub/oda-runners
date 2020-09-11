@@ -33,7 +33,7 @@ issue flow
 
 ![Diagram](Diagram.png)
 
-## Distributed Workflow Ontology
+## Communicating Distributed Workflows
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
 
