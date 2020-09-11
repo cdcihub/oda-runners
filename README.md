@@ -28,11 +28,15 @@ issue flow
 
 ![Diagram](Diagram.png)
 
-## Workflow Model
+## Distributed Workflow Ontology
 
-There is a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Airflow (the latter chosen by ESA).
+* *How do we organize communication in the federation, e.g. between the platform and the workers?*
 
-All of them refelct general scheme, treating workflows as functions:
+It would be preferable to use a popular languages, interfaces to describe tasks (workflows) and data.  Unfortunately, there is not a universal format. 
+Instead, a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Airflow (the latter chosen by ESA).
+CWL comes close to being a universal langauge.
+
+All of them reflect general scheme, treating workflows as functions:
 
 * each workflow is a computable function. 
 * a workflow has inputs (dependencies, requirements). The inputs are subject to a type system. 
