@@ -36,6 +36,13 @@ issue flow
 
 ![Diagram](Diagram.png)
 
+
+## Credits
+
+we loose uniqueness credits by providing the capacity to reduce data with a click of a button
+
+compute contributors loose credit since their resources are leveraged for common good without clear attribution
+
 ## Communicating Distributed Workflows
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
