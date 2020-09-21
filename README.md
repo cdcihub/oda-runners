@@ -74,11 +74,11 @@ Finally, we use RDF:
 an example of such a definition, for a real case of ISGRI (see also https://github.com/volodymyrss/dda-ddosa/):
 
 ```
+ii_skyimage:
+  BinEventsImage:
     ScWData
-  CatExtract
+  CatExtract:
     ScWData
-  BinEventsImage
-ii_skyimage
 ```
 In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage.
 
