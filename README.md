@@ -66,6 +66,8 @@ In addition, we leverage workflows as first-order data type, allowing:
 * workflow can be an input to another workflow, allowing for example "mapping" or "factorizing" workflows.
 * workflow can be an output of another workflow, allowing dynamic workflow composition
 
+Dynamic workflow composition is vital for expressing the workflows conciesly. In particular, it can be used to compose the workflow from a set of relations, described in modules, by merging graphs. 
+
 Finally, we use RDF:
 
 * each workflow is identified by an URI (resolvable)
@@ -77,12 +79,36 @@ an example of such a definition, for a real case of ISGRI (see also https://gith
 ii_skyimage:
   BinEventsImage:
     ScWData
+      066500110010.001  
   CatExtract:
-    ScWData
+    ScWData:
+      066500110010.001  
 ```
 In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage. 
 
+the above workflow which is dynamically composed from:
+
+```
+expand:
+  target:
+    ii_skyimage
+  modules:  
+  - ddosa
+  assumptions:
+  - ScWData:
+      066500110010.001  
+```
+
+and is eventually computed to be equiavalent to:
+
+```
+data:
+  ii_skyimage-066500110010.001
+```
+
 Note that all details needed to actually compute a given workflow (e.g. types, cwl, container name, etc) are hidden, and cab be extracted using the URI. The scheme instead represents purely the relation between the analysis processes.
+
+
 
 ## Provenance?
 
