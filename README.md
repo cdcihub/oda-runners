@@ -66,6 +66,22 @@ In addition, we leverage workflows as first-order data type, allowing:
 * workflow can be an input to another workflow, allowing for example "mapping" or "factorizing" workflows.
 * workflow can be an output of another workflow, allowing dynamic workflow composition
 
+Finally, we use RDF:
+
+* each workflow is identified by an URI (resolvable)
+* RDF relations are used to describe the workflows (output, inputs, and their types)
+
+an example of such a definition, for a real case of ISGRI (see also https://github.com/volodymyrss/dda-ddosa/):
+
+```
+    ScWData
+  CatExtract
+    ScWData
+  BinEventsImage
+ii_skyimage
+```
+In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage.
+
 ## Provenance?
 
 benefits of provenance include:
