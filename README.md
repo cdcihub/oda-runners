@@ -80,11 +80,13 @@ ii_skyimage:
   CatExtract:
     ScWData
 ```
-In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage.
+In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage. 
+
+Note that all details needed to actually compute a given workflow (e.g. types, cwl, container name, etc) are hidden, and cab be extracted using the URI. The scheme instead represents purely the relation between the analysis processes.
 
 ## Provenance?
 
-benefits of provenance include:
+benefits of provenance are numerous, see XX for details.
 
 
 ## Security implications of distributed analysis
