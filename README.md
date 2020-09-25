@@ -25,6 +25,9 @@ We provide:
 
 ### Anonymous (Job Token) runner
 
+### Job runners
+
+### Session runners
 
 ### User runners
 
