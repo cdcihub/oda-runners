@@ -46,6 +46,12 @@ we loose uniqueness credits by providing the capacity to reduce data with a clic
 
 compute contributors loose credit since their resources are leveraged for common good without clear attribution
 
+## Layering data storage (cache)
+
+## Dealing with exceptions
+
+* Analysis Exceptions
+* Unhandled Exceptions
 ## Communicating Distributed Workflows
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
