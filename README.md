@@ -50,6 +50,8 @@ compute contributors loose credit since their resources are leveraged for common
 
 ## Dealing with exceptions
 
+## Considerations of resource optimization: network vs store vs compute
+
 * Analysis Exceptions
 * Unhandled Exceptions
 ## Communicating Distributed Workflows
