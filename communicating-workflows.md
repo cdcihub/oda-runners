@@ -2,9 +2,11 @@
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
 
+
 It would be preferable to use a popular languages, interfaces to describe tasks (workflows) and data.  Unfortunately, there is not a universal format. 
-Instead, a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Airflow (the latter chosen by ESA).
+Instead, a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Snakemake, Airflow (the latter chosen by ESA).
 CWL comes close to being a universal langauge.
+
 
 All of them reflect general scheme, treating workflows as functions:
 
@@ -39,7 +41,7 @@ ii_skyimage:
     ScWData:
       066500110010.001  
 ```
-In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage. 
+In a simplified notation, skipping the common namespace. For example, full id of `ii_skyimage` is ddosa:ii_skyimage or http://odahub.io/workflows/dda/ddosa/ii_skyimage and https://github.com/volodymyrss/integral-workflow-scheme/.
 
 the above workflow which is dynamically composed from:
 
@@ -64,4 +66,8 @@ data:
 Note that all details needed to actually compute a given workflow (e.g. types, cwl, container name, etc) are hidden, and cab be extracted using the URI. The scheme instead represents purely the relation between the analysis processes.
 
 
+> **What? Another workflow definition langauge??**
+> We really do not want to invent another language. But we prefer to follow the phylosophy which allows a diversity of languages and communcation formats, as long as as their conversion to known standards is defined. In fact, we see the value of this description expressed through possibility of translating it to well-estalibshed languages.
+> Hence we prefer to consider our workflow description a kind of a **pseudo-code**.
 
+See also: 
