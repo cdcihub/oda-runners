@@ -56,7 +56,9 @@ compute contributors loose credit since their resources are leveraged for common
 * Analysis Exceptions
 * Unhandled Exceptions
 
-## Scheduling to the data: worker capacities
+## Scheduling to the data: runner capacities
+
+Since workflows are defined exclusively as expressions, in order to determine if runner is capable to execute the workflow, it is necessary and sufficient to determine if runner has sufficient inputs.
 
 ## Communicating Distributed Workflows
 
@@ -70,3 +72,14 @@ benefits of provenance are numerous, see XX for details.
 
 
 ## Security implications of distributed analysis
+
+
+## Example of running on two UNIGE clusters
+
+Department of Astronomy at UNIGE relies on two clusters local [LESTA] and university-level [Baobab]. Both use SLURM. Baobab supports Singularity, which is what we use here.
+
+```bash
+$ oda-node runner start-executor \
+    'bash -c "export -n partition; export batch_time=00:10:00; seq 1 3 > jobs; bao-submit-array ../integral-oda-worker/ jobid jobs"' 
+    'bao-squeue'
+```
