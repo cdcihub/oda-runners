@@ -56,15 +56,17 @@ compute contributors loose credit since their resources are leveraged for common
 * Analysis Exceptions
 * Unhandled Exceptions
 
-## Scheduling to the data: runner capacities
-
-Since workflows are defined exclusively as expressions, in order to determine if runner is capable to execute the workflow, it is necessary and sufficient to determine if runner has sufficient inputs.
-
 ## Communicating Distributed Workflows
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
 
 All of them reflect general scheme, treating workflows as functions. See [details](communicating-workflows.md).
+
+## Scheduling to the data: runner capacities
+
+Since workflows are defined exclusively as expressions, in order to determine if runner is capable to execute the workflow, it is necessary and sufficient to determine if runner has sufficient inputs.
+
+Inputs 
 
 ## Provenance?
 
