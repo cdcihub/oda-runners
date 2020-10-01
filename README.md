@@ -75,5 +75,6 @@ benefits of provenance are numerous, see XX for details.
 
 ## Security implications of distributed analysis
 
+unprivileged contribution
 
 
