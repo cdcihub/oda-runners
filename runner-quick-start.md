@@ -6,7 +6,7 @@ Department of Astronomy at UNIGE relies on two clusters local [LESTA] and univer
 
 ask someone (e.g. support@odahub.io).
 
-* Requirements, to setup environment
+### Setting up the environment
 
 Node manager to fetch workflows to compute and upload results (established facts of equivalence between DAG expressions and data references):
 
@@ -23,7 +23,7 @@ $ pip install data-analysis
 To allow fetching INTEGRAL data:
 
 ```bash
-$ pip install integral-data-morrow
+$ pip install integral-data-mirror
 ```
 
 * Execute a single task
@@ -43,7 +43,18 @@ $ oda-node runner start-executor \
     --token my-oda-token
 ```
 
-Example of INTEGRAL analysis at UNIGE:
+### Re-using environment  with a singularity container
+
+```
+singularity exec -B/tmp/pfiles:/home/build/pfiles \
+            -B $DATA_ROOT:/data \
+            -B $DATA_ROOT/integral:/isdc/arc/rev_3/ \
+            -B $DATA_ROOT/integral:/isdc/pvphase/nrt/ops/ \
+            oda-integral-worker.img
+```
+
+
+### Example of INTEGRAL analysis at several UNIGE clusters:
 
 ```bash
 $ oda-node runner start-executor \
