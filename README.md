@@ -77,4 +77,15 @@ benefits of provenance are numerous, see XX for details.
 
 unprivileged contribution
 
+security layers:
+
+* _solver_
+
+* questioner
+* controller
+
+
+
+## ODA mesh
+
 
