@@ -19,7 +19,7 @@ We provide:
 
 * Simply **use our Online Analysis [Frontend](https://www.astro.unige.ch/cdci/astrooda_/) or [API](https://github.com/cdcihub/oda_api_benchmark/)**, leveraging the collective effort of the federation with just few clicks.
 * **Empower your requests with your own hardware**, computing selected (by you) and verified (by instrument expects whom you trust anyway) analysis workflows. The analysis will store the high-level products in shared provenance-based cache, accelerating similar workflows for the community. **Community will see your contribution, will be grateful, and requested to acknowledge it**.
-* **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often.
+* **Join your own service - a remotely computable workflow** - register it in the Knowledge Base, and find that people will query it more often - we will suggest users to use your service, when suitable.
 * Perhaps even **join your computing resources to provide spare computing power to other users**, **community will be very grateful and requested to acknowlage your contribution**
 
 ## Ways of connecting a federated resource
