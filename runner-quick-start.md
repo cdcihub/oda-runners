@@ -62,3 +62,7 @@ $ oda-node runner start-executor \
     'bao-squeue'  \
     --token my-oda-token
 ```
+
+## Interruptable runner
+
+Some HPC platforms allow analysis to declare capacity to check-point, and runner supports this mode.
