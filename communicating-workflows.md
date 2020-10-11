@@ -2,7 +2,6 @@
 
 * *How do we organize communication in the federation, e.g. between the platform and the workers?*
 
-
 It would be preferable to use a popular languages, interfaces to describe tasks (workflows) and data.  Unfortunately, there is not a universal format. 
 Instead, a large variety of methods of modelling (describing) workflows. Most notably, for our purposes: CWL, Yadage, Luigi, Snakemake, Airflow (the latter chosen by ESA).
 CWL comes close to being a universal langauge.
@@ -69,5 +68,6 @@ Note that all details needed to actually compute a given workflow (e.g. types, c
 > **What? Another workflow definition langauge??**
 > We really do not want to invent another language. But we prefer to follow the phylosophy which allows a diversity of languages and communcation formats, as long as as their conversion to known standards is defined. In fact, we see the value of this description expressed through possibility of translating it to well-estalibshed languages.
 > Hence we prefer to consider our workflow description a kind of a **pseudo-code**.
+> Furthermore, where feasible, this description refers to blocks of workflow expressed in another suitable language, such as **CWL**. 
 
 See also: 
