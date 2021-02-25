@@ -91,3 +91,7 @@ security layers:
 
 ## Fault-tolerance
 
+
+## By the way
+
+Is this becoming yet another distributed runner system? I hope not. I hope focus on wrapping existing features and workflow tools.
